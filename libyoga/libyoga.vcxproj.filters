@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="yoga">
+      <UniqueIdentifier>{ca07d7b9-c0b9-408a-b93d-44662231d425}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="yoga\internal">
+      <UniqueIdentifier>{e492114e-29d7-4694-aaa6-78d0866cb88d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="yoga\event">
+      <UniqueIdentifier>{9d8b774b-d3ff-49ee-8fec-540529f96801}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="yoga\BitUtils.h">
+      <Filter>yoga</Filter>
+    </ClInclude>
+    <ClInclude Include="yoga\CompactValue.h">
+      <Filter>yoga</Filter>
+    </ClInclude>
+    <ClInclude Include="yoga\log.h">
+      <Filter>yoga</Filter>
+    </ClInclude>
+    <ClInclude Include="yoga\Utils.h">
+      <Filter>yoga</Filter>
+    </ClInclude>
+    <ClInclude Include="yoga\YGConfig.h">
+      <Filter>yoga</Filter>
+    </ClInclude>
+    <ClInclude Include="yoga\YGEnums.h">
+      <Filter>yoga</Filter>
+    </ClInclude>
+    <ClInclude Include="yoga\YGFloatOptional.h">
+      <Filter>yoga</Filter>
+    </ClInclude>
+    <ClInclude Include="yoga\YGLayout.h">
+      <Filter>yoga</Filter>
+    </ClInclude>
+    <ClInclude Include="yoga\YGMacros.h">
+      <Filter>yoga</Filter>
+    </ClInclude>
+    <ClInclude Include="yoga\YGNode.h">
+      <Filter>yoga</Filter>
+    </ClInclude>
+    <ClInclude Include="yoga\YGNodePrint.h">
+      <Filter>yoga</Filter>
+    </ClInclude>
+    <ClInclude Include="yoga\YGStyle.h">
+      <Filter>yoga</Filter>
+    </ClInclude>
+    <ClInclude Include="yoga\YGValue.h">
+      <Filter>yoga</Filter>
+    </ClInclude>
+    <ClInclude Include="yoga\Yoga.h">
+      <Filter>yoga</Filter>
+    </ClInclude>
+    <ClInclude Include="yoga\Yoga-internal.h">
+      <Filter>yoga</Filter>
+    </ClInclude>
+    <ClInclude Include="yoga\internal\experiments.h">
+      <Filter>yoga\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="yoga\internal\experiments-inl.h">
+      <Filter>yoga\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="yoga\event\event.h">
+      <Filter>yoga\event</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="yoga\log.cpp">
+      <Filter>yoga</Filter>
+    </ClCompile>
+    <ClCompile Include="yoga\Utils.cpp">
+      <Filter>yoga</Filter>
+    </ClCompile>
+    <ClCompile Include="yoga\YGConfig.cpp">
+      <Filter>yoga</Filter>
+    </ClCompile>
+    <ClCompile Include="yoga\YGEnums.cpp">
+      <Filter>yoga</Filter>
+    </ClCompile>
+    <ClCompile Include="yoga\YGLayout.cpp">
+      <Filter>yoga</Filter>
+    </ClCompile>
+    <ClCompile Include="yoga\YGNode.cpp">
+      <Filter>yoga</Filter>
+    </ClCompile>
+    <ClCompile Include="yoga\YGNodePrint.cpp">
+      <Filter>yoga</Filter>
+    </ClCompile>
+    <ClCompile Include="yoga\YGStyle.cpp">
+      <Filter>yoga</Filter>
+    </ClCompile>
+    <ClCompile Include="yoga\YGValue.cpp">
+      <Filter>yoga</Filter>
+    </ClCompile>
+    <ClCompile Include="yoga\Yoga.cpp">
+      <Filter>yoga</Filter>
+    </ClCompile>
+    <ClCompile Include="yoga\internal\experiments.cpp">
+      <Filter>yoga\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="yoga\event\event.cpp">
+      <Filter>yoga\event</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="libyoga.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
